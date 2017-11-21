@@ -19,9 +19,36 @@ namespace Calculator
 
             FlowLayoutPanel panel = new FlowLayoutPanel
             {
+                Dock = DockStyle.Fill
+            };
+            panel.Controls.Add(window);
+            Controls.Add(panel);
+
+            Button c = new Button
+            {
+                Text = "C",
+                TextAlign = ContentAlignment.MiddleCenter
+            };
+            panel.Controls.Add(c);
+
+            Button divide = new Button
+            {
+                Text = "%",
+                TextAlign = ContentAlignment.MiddleCenter
+            };
+            panel.Controls.Add(divide);
+
+            Button multiply = new Button
+            {
+                Text = "X",
+                TextAlign = ContentAlignment.MiddleCenter,
                 
             };
+            panel.Controls.Add(multiply);
 
+            
+
+            
 
 
 
