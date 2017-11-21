@@ -10,5 +10,23 @@ namespace Calculator
 {
     class Calculator : Form
     {
+        public Calculator()
+        {
+            TableLayoutPanel window = new TableLayoutPanel
+            {
+                RowCount = 2
+            };
+
+            FlowLayoutPanel panel = new FlowLayoutPanel
+            {
+                
+            };
+
+
+
+
+        }
+
+    
     }
 }
